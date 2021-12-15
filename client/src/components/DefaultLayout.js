@@ -8,7 +8,7 @@ function DefaultLayout(props) {
     <Menu>
         <Menu.Item>
         <a
-         
+
           href="/"
         >
           Home
@@ -16,7 +16,7 @@ function DefaultLayout(props) {
       </Menu.Item>
       <Menu.Item>
         <a
-          
+
           href="/userbookings"
         >
           Bookings
@@ -24,7 +24,7 @@ function DefaultLayout(props) {
       </Menu.Item>
       <Menu.Item>
         <a
-         
+
           href="/admin"
         >
           Admin
@@ -52,7 +52,7 @@ function DefaultLayout(props) {
         </div>
               </Col>
           </Row>
-        
+
       </div>
       <div className="content">{props.children}</div>
 
@@ -61,10 +61,10 @@ function DefaultLayout(props) {
 
            <p>Desinged and Developed By</p>
 
-           
+
 
            <p>SHEY</p>
-          
+
       </div>
     </div>
   );
